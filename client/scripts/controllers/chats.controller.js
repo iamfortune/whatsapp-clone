@@ -8,46 +8,46 @@ export default class ChatsCtrl extends Controller {
     this.data = [
       {
         _id: 0,
-        name: 'Ethan Gonzalez',
+        name: 'Divine Philip',
         picture: 'https://randomuser.me/api/portraits/thumb/men/1.jpg',
         lastMessage: {
-          text: 'You on your way?',
+          text: 'Guy, come back to Aba, corona virus dey',
           timestamp: Moment().subtract(1, 'hours').toDate()
         }
       },
       {
         _id: 1,
-        name: 'Bryan Wallace',
+        name: 'Francy Ana',
         picture: 'https://randomuser.me/api/portraits/thumb/lego/1.jpg',
         lastMessage: {
-          text: 'Hey, it\'s me',
+          text: 'i love you...',
           timestamp: Moment().subtract(2, 'hours').toDate()
         }
       },
       {
         _id: 2,
-        name: 'Avery Stewart',
+        name: 'Debbie DSC',
         picture: 'https://randomuser.me/api/portraits/thumb/women/1.jpg',
         lastMessage: {
-          text: 'I should buy a boat',
+          text: 'register for GSOC',
           timestamp: Moment().subtract(1, 'days').toDate()
         }
       },
       {
         _id: 3,
-        name: 'Katie Peterson',
+        name: 'Melvin',
         picture: 'https://randomuser.me/api/portraits/thumb/women/2.jpg',
         lastMessage: {
-          text: 'Look at my mukluks!',
+          text: 'Teach me React boss!',
           timestamp: Moment().subtract(4, 'days').toDate()
         }
       },
       {
         _id: 4,
-        name: 'Ray Edwards',
+        name: 'Isaac',
         picture: 'https://randomuser.me/api/portraits/thumb/men/2.jpg',
         lastMessage: {
-          text: 'This is wicked good ice cream.',
+          text: 'I\'m in lagos bro.',
           timestamp: Moment().subtract(2, 'weeks').toDate()
         }
       }

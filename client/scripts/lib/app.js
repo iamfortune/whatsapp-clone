@@ -17,6 +17,7 @@ const App = "Whatsapp";
 Angular.module(App, ["angular-meteor", "ionic"]);
 
 new Loader(App)
+    .load(ChatsCtrl)
     .load(RoutesConfig);
 
 // Startup

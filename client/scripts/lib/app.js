@@ -8,6 +8,7 @@ import Loader from 'angular-ecmascript/module-loader';
 import { Meteor } from "meteor/meteor";
 
 // Modules
+import ChatsCtrl from '../controllers/chats.controller';
 import RoutesConfig from '../routes';
 
 const App = "Whatsapp";

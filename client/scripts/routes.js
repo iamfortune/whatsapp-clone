@@ -1,28 +1,28 @@
-import { Config } from "angular-ecmascript/module-helpers";
+import { Config } from 'angular-ecmascript/module-helpers';
 
-import chatsTemplateUrl from "../templates/chats.html";
-import tabsTemplateUrl from "../templates/tabs.html";
+import chatsTemplateUrl from '../templates/chats.html';
+import tabsTemplateUrl from '../templates/tabs.html';
 
 export default class RoutesConfig extends Config {
   configure() {
     this.$stateProvider
-      .state("tab", {
-        url: "/tab",
+      .state('tab', {
+        url: '/tab',
         abstract: true,
         templateUrl: tabsTemplateUrl
       })
-      .state("tab.chats", {
-        url: "/chats",
+      .state('tab.chats', {
+        url: '/chats',
         views: {
-          "tab-chats": {
+          'tab-chats': {
             templateUrl: chatsTemplateUrl,
             controller: 'ChatsCtrl as chats'
           }
         }
       });
 
-    this.$urlRouterProvider.otherwise("tab/chats");
+    this.$urlRouterProvider.otherwise('tab/chats');
   }
 }
 
-RoutesConfig.$inject = ["$stateProvider", "$urlRouterProvider"];
+RoutesConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
